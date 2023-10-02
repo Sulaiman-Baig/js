@@ -17,5 +17,5 @@ d = d.valueOf();
 d = new Date(1666969745);
 
 d = Math.floor(Date.now() / 1000);
-
+  
 console.log(d);
