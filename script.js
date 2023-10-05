@@ -1,6 +1,4 @@
 
-
-
 const x = 100;
 console.log(x);
 
@@ -31,4 +29,5 @@ console.groupEnd();
 
 const styles = 'padding: 10px; background-color: white; color: green';
 console.log('%cHello World', styles);
+
 
