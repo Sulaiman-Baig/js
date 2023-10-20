@@ -15,15 +15,15 @@ function replaceSecondItem() {
 function replaceAllItems() {
   const lis = document.querySelectorAll('li');
 
-  //   lis.forEach((item, index) => {
-  //     // item.outerHTML = '<li>Replaced All</li>';
-  //     item.innerHTML = 'Replace All';
-  //     if (index === 1) {
-  //       item.innerHTML = 'Second Item';
-  //     } else if {
-  //         item.innerHTML = 'Replace All';
-  //     }
-  //   });
+  //     lis.forEach((item, index) => {
+  //       // item.outerHTML = '<li>Replaced All</li>';
+  //       item.innerHTML = 'Replace All';
+  //       if (index === 1) {
+  //         item.innerHTML = 'Second Item';
+  //       } else if {
+  //           item.innerHTML = 'Replace All';
+  //       }
+  //     });
   lis.forEach(
     (item, index) =>
       (item.outerHTML = index === 1 ? '<li> Second Item</li>' : '<li>Item</li>')
