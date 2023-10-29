@@ -1,4 +1,4 @@
-// Asynchronous
+// Asynchronous Function
 
 console.log('I');
 console.log('eat');
@@ -19,5 +19,5 @@ function two(call_one) {
   console.log('step 2 ');
 }
 
-// two();
+two();
 one(two);
